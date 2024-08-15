@@ -25,9 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-<<<<<<< HEAD
     compileSdkVersion 34
-=======
     if (project.android.hasProperty('namespace')) {
         namespace 'com.example.imagegallerysaver'
     }
@@ -42,7 +40,6 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
->>>>>>> knottx-knottx
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
